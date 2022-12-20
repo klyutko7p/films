@@ -1,0 +1,78 @@
+:root {
+    --background: url();
+    --main-color: #eb2055;
+}
+
+body {
+    background-image: var(--background);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-credits {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-cont {
+    background-color: #2e2c36;
+    transition: 0.2s;
+    padding: 40px;
+    opacity: var(--opacity);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.main-film {
+    background-color: #4c4858;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.img-credit {
+    border-radius: 10px;
+    height: 6em;
+    object-fit: cover;
+    width: 6em;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.credit-detail h1 {
+    transition: .2s;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.credit-detail h1:hover {
+    transition: .2s;
+    color: var(--main-color-of)
+}
+
+.credit-detail h2 {
+    font-size: 12px;
+    color:rgb(206, 206, 206);
+}
+
+.film-text h1 {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.film-text h1:hover {
+    color: var(--main-color-of);
+    transition: .2s;
+}
+
+
+@media (max-width: 500px) {
+    .main-credits { 
+        display: block;
+        }
+}
