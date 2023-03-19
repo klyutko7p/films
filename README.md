@@ -1,4 +1,5 @@
 # film
+![image](https://user-images.githubusercontent.com/95645570/226002547-7d17ddf1-cfb1-44d0-9873-f5137c35d743.png)
 
 ## Project setup
 ```
