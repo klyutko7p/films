@@ -154,7 +154,7 @@ export default createStore({
             }
           });
         } else {
-          state.seeLaterFilms.push(payload);
+            
         }
       }
     },
